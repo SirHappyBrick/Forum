@@ -34,6 +34,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;	
 }
 
+#logo {
+  color: #ff3100;
+  font-size: 32px;
+}
+
 .btn-custom {
 	background-color: #fff;
 	color: #ec6767;
@@ -41,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	border-radius: 6px;
 	padding: 10px 20px;
+  margin-top: 10px;
 	&:hover {
 		color: #383838;
 		transition: 0.5s;
@@ -102,12 +108,11 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box;
 	background-color: #9696a9;
 	border-radius: 5px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	margin-right: 10px;
 	margin-left: 10px;
 	padding: 1.4em 1.4em;
 	color: #FFF;
-	height: 100px;
 	border-bottom: 4px solid #ec6767;
 
 	.message-title {
