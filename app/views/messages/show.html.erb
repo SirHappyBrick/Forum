@@ -7,6 +7,13 @@
     <p class="message-desc">
       <%= @message.description %>
     </p>
+
+    <h3 class="comment-section-header"> Comments </h3>
+    <p> <%= render @message.comments %> </p>
+
+    <h3 class="reply-to-msg">Join discussion</h3>
+    <%= render 'comments/form'%>
+
     <div class="links btn-group">
       <%= link_to "Back", root_path, class:"btn btn-secondary" %>
       <%= link_to "Edit", edit_message_path(@message), class:"btn btn-primary" %>
